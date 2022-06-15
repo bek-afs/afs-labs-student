@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: https://harbor.dev.afsmtddso.com/bkoehler-harbor-project/db:971c881-349bcb8
+        image: harbor.dev.afsmtddso.com/bkoehler-harbor-project/db:971c881-349bcb8
         ports:
         - containerPort: 5432
